@@ -1,5 +1,5 @@
 // COLORS
-$color-primary: #FFF; // ?
+$color-primary: rgb(0, 136, 177); // ?
 $color-primary-light: rgb(27, 188, 236);
 $color-primary-dark: rgb(45, 46, 51);
 
@@ -8,6 +8,9 @@ $color-grey-light-1: #f7f7f7;
 $color-grey-dark: #777;
 $color-white: #FFF;
 $color-black: #000;
+
+// FONT
+$default-font-size: 1.6rem;
 
 // GRID
 $grid-width: 114rem; // industry standard
