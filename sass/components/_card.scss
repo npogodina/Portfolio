@@ -27,9 +27,9 @@
         &--back {
             transform: rotateY(180deg);
 
-            &--1 {
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
-            }
+            // &--1 {
+            //     background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+            // }
 
             &--2 {
                 background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
@@ -53,15 +53,16 @@
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
         &--1 {
-            background-image: url(../img/babychecklist.jpg);
+            background-image: linear-gradient(to bottom, transparent, $color-primary-light),
+            url(../img/babychecklist.jpg);
         }
 
         &--2 {
-            background-image: url(../img/rgbcolorgame.png);
+            background-image: linear-gradient(to bottom, transparent, seagreen), url(../img/rgbcolorgame.png);
         }
 
         &--3 {
-            background-image: url(../img/underconstruction.jpg);
+            background-image: linear-gradient(to bottom, transparent, $color-secondary-dark), url(../img/underconstruction.jpg);
         }
 
         &--4 {
@@ -89,26 +90,26 @@
         //width: 75%;
     }
 
-    &__heading-span {
+    // &__heading-span {
 
-        &--1 {
-            background-image: linear-gradient(to right bottom, 
-            rgba($color-secondary-light, .85),
-            rgba($color-secondary-dark, .85));
-        }
+    //     &--1 {
+    //         background-image: linear-gradient(to right bottom, 
+    //         rgba($color-secondary-light, .85),
+    //         rgba($color-secondary-dark, .85));
+    //     }
 
-        &--2 {
-            background-image: linear-gradient(to right bottom, 
-            rgba($color-primary-light, .85),
-            rgba($color-primary-dark, .85));
-        }
+    //     &--2 {
+    //         background-image: linear-gradient(to right bottom, 
+    //         rgba($color-primary-light, .85),
+    //         rgba($color-primary-dark, .85));
+    //     }
 
-        &--1 {
-            background-image: linear-gradient(to right bottom, 
-            rgba($color-secondary-light, .85),
-            rgba($color-secondary-dark, .85));
-        }
-    }
+    //     &--1 {
+    //         background-image: linear-gradient(to right bottom, 
+    //         rgba($color-secondary-light, .85),
+    //         rgba($color-secondary-dark, .85));
+    //     }
+    // }
 
     &__details {
         padding: 0 3rem;
