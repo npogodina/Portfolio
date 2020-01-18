@@ -187,11 +187,11 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card__picture--1 {
-      background-image: linear-gradient(to bottom, transparent, #1bbcec), url(../img/babychecklist.jpg); }
+      background-image: linear-gradient(to bottom, transparent, #2d2e33), url(../img/babychecklist.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to bottom, transparent, seagreen), url(../img/rgbcolorgame.png); }
+      background-image: linear-gradient(to bottom, transparent, #2d2e33), url(../img/rgbcolorgame.png); }
     .card__picture--3 {
-      background-image: linear-gradient(to bottom, transparent, #f9acbc), url(../img/underconstruction.jpg); }
+      background-image: linear-gradient(to bottom, transparent, #2d2e33), url(../img/underconstruction.jpg); }
     .card__picture--4 {
       background-image: url(../img/underconstruction.jpg); }
     .card__picture--5 {

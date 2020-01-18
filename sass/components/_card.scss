@@ -53,16 +53,16 @@
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
         &--1 {
-            background-image: linear-gradient(to bottom, transparent, $color-primary-light),
+            background-image: linear-gradient(to bottom, transparent, $color-primary-dark),
             url(../img/babychecklist.jpg);
         }
 
         &--2 {
-            background-image: linear-gradient(to bottom, transparent, seagreen), url(../img/rgbcolorgame.png);
+            background-image: linear-gradient(to bottom, transparent, $color-primary-dark), url(../img/rgbcolorgame.png);
         }
 
         &--3 {
-            background-image: linear-gradient(to bottom, transparent, $color-secondary-dark), url(../img/underconstruction.jpg);
+            background-image: linear-gradient(to bottom, transparent, $color-primary-dark), url(../img/underconstruction.jpg);
         }
 
         &--4 {
