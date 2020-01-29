@@ -7,10 +7,14 @@
 .section-features {
     padding: 20rem 0;
     background-image: linear-gradient(
-        to bottom,
-        rgba($color-primary-light, 0.8), 
-        rgba($color-primary-dark, 0.8)),
-    url(../img/coffee-mac-nikon.jpg);
+                        to bottom,
+                        rgba($color-primary-very-light, 0.7), 
+                        rgba($color-primary, 0.7)),;
+    // background-image: linear-gradient(
+    //     to bottom,
+    //     rgba($color-primary-light, 0.7), 
+    //     rgba($color-primary, 0.7)),
+    // url(../img/coffee-mac-nikon-edited.jpg);
     background-size: cover;
     background-position: center;
     transform: skewY(-6.6deg);

@@ -2,7 +2,7 @@
     position: relative;
 
     &__photo {
-        width: 55%;
+        width: 40%;
         //box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
         //border-radius: 2px;
         //-webkit-filter: drop-shadow(0.3rem 10rem 4rem rgba($color-primary-light, .2));
@@ -12,19 +12,19 @@
         transition: all .2s;
 
         &--p1 {
-            left: 0;
+            left: 5rem;
             top: -2rem;
         }
 
         &--p2 {
-            right: 0;
-            top: 2rem;
+            right: 9rem;
+            top: 3rem;
         }
 
         &--p3 {
-            width: 45%;
-            left: 20%;
-            top: 20rem;
+            width: 35%;
+            left: 25%;
+            top: 18rem;
         }
 
         &:hover {
